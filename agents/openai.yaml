@@ -1,0 +1,4 @@
+interface:
+  display_name: "训练营内容生成"
+  short_description: "从素材到大纲、图文稿、复核与定稿复盘的训练营工作流"
+  default_prompt: "Use $training-camp-content-builder to create a training camp outline and proceed through confirmed drafting, visuals, compliance review, and final comparison."
