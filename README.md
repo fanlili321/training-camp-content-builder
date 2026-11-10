@@ -48,11 +48,13 @@ training-camp-content-builder/
 
 ## 使用方式
 
-将本仓库目录放入 Codex 的 Skills 目录，例如：
+作为「课程&书籍」项目的项目级 skill，放在项目的 Skills 目录（Codex 和 Claude Code 都会读取）：
 
 ```text
-~/.codex/skills/training-camp-content-builder
+<课程&书籍项目>/.agents/skills/training-camp-content-builder
 ```
+
+也可以放进 `~/.codex/skills/` 全局使用。
 
 当用户提出策划、起草、更新、审阅或复盘训练营内容时，Codex 会根据 Skill 描述自动匹配并执行对应阶段。
 
