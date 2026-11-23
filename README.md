@@ -1,6 +1,9 @@
 # 训练营内容生成 Skill
 
-用于根据用户素材、历史 PPT/课程、文字稿和上一期训练营成品，完成微信群图文训练营从策划到复盘的完整内容流程。
+用于微信群图文训练营的内容工作，分两种模式：
+
+- **新建**：根据用户素材、历史 PPT/课程、文字稿和上一期训练营成品，完成从策划到复盘的完整内容流程。
+- **更新**：在已有训练营文档上换主推产品、复用其他训练营内容、更新数据和配图，先出修改清单，确认后再改，写后回读核对。
 
 ## 适用场景
 
@@ -39,11 +42,14 @@ training-camp-content-builder/
 ├── SKILL.md                         # 核心工作流与阶段门禁
 ├── agents/openai.yaml               # Skill 展示信息
 ├── assets/camp-copy-template.md     # 微信群图文稿模板
+├── assets/split_signal_board.py     # 牛熊信号板长图拆成定量、定性两张图
 └── references/
     ├── writing-format.md            # 写作与版式规范
     ├── compliance-rules.md          # 合规及风险提示规则
     ├── review-checklist.md          # 定稿复核清单
-    └── feishu-workflow.md           # 飞书文档读写规范
+    ├── feishu-workflow.md           # 飞书文档读写规范
+    ├── update-workflow.md           # 更新模式流程
+    └── material-sources.md          # 常用素材来源与处理
 ```
 
 ## 使用方式
